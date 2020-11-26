@@ -405,16 +405,15 @@ echo "  ~~~~~~~~~~~~~~~~~~~~~ Mys-Tool ~~~~~~~~~~~~~~~~~~~~~~~~~"
                 cd oto-ip
                 echo -e $red "~~~~~~~~~~~~~~~ Ek Bileşenler Kuruluyor ~~~~~~~~~~~~~~~$tp"
                 {
-                chmod +x indir.sh
-                sudo bash indir.sh 
+                chmod +x indir.sh 
                 } &> /dev/null
                 spinlong
-                echo -e $red "~~~~~~~~~~~~~~~ Torghost Kuruldu ~~~~~~~~~~~~~~~$tp"
+                echo -e $red "~~~~~~~~~~~~~~~ Mys-ip Kuruldu ~~~~~~~~~~~~~~~$tp"
                 pressanykey3
             fi
             clear
             cd torghost # adet yerini bulsun
-            torghost -s
+            python3 otomatik.py
             cd .. # adet yerini buldu
                 ;;
             4)
