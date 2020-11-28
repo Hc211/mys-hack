@@ -323,15 +323,15 @@ cd $setdir
 echo ""
 echo -e "${blink}${lightgreen}  ---------------------------------------------------------$tp"
 echo -e "${blink}${lightgreen}  |$tp ${cyan}Create by           $white":" $red Mysorfilox$tp ${blink}${lightgreen}                    |$tp"
-echo -e "${blink}${lightgreen}  |$tp ${cyan}Discord             $white":" $red Yok.$tp${blink}${lightgreen}                           |$tp"
-echo -e "${blink}${lightgreen}  |$tp ${cyan}Github              $white":" $red Yok.$tp ${blink}${lightgreen}                          |$tp"
+echo -e "${blink}${lightgreen}  |$tp ${cyan}Discord             $white":" $red LOG4R$tp${blink}${lightgreen}                          |$tp"
+echo -e "${blink}${lightgreen}  |$tp ${cyan}Github              $white":" $red https://github.com/Mys-tool$tp ${blink}${lightgreen}   |$tp"
 echo -e "${blink}${lightgreen}  |$tp ${cyan}Instagram           $white":" $red @_barann.35$tp ${blink}${lightgreen}                   |$tp"
 echo -e "${blink}${lightgreen}  ---------------------------------------------------------$tp\n" 
 echo "  ~~~~~~~~~~~~~~~~~~~~~ Mys-Tool ~~~~~~~~~~~~~~~~~~~~~~~~~" 
         echo ""
         echo " [1] ✔ Inshackle             [2] ✔ Kickthemout" 
         echo " [3] ✔ Mys-oto-ip              [4] ✔ HiddenEye" 
-        echo " [5] ✔ ByChan-Ddos           [6] ✔ UserRecon" 
+        echo " [5] ✔ DDOS             [6] ✔ UserRecon" 
         echo " [7] ✔ Seeker                [8] ✔ Instashell" 
         echo " [9] ✔ BluForce-FB           [10] ✔ Cupp" 
         echo " [11] ✔ SpamWa               [12] ✔ RZP" 
@@ -443,17 +443,17 @@ echo "  ~~~~~~~~~~~~~~~~~~~~~ Mys-Tool ~~~~~~~~~~~~~~~~~~~~~~~~~"
             cd ..
                 ;;
             5)
-            if [[ -d Ddos-Attack-ByChan ]] ; then
+            if [[ -d Ddos-Attack ]] ; then
                 ok
             else 
                 clear
                   
-                echo -e $red "~~~~~~~~~~~~~~~ ByChan-Ddos İndiriliyor ~~~~~~~~~~~~~~~"
+                echo -e $red "~~~~~~~~~~~~~~~ Ddos İndiriliyor ~~~~~~~~~~~~~~~"
                 git clone https://github.com/ByCh4n/Ddos-Attack-ByChan > /dev/null 2>&1
                 spinlong
                 cd Ddos-Attack-ByChan
                 chmod +x Ddos.py
-                echo -e $red "~~~~~~~~~~~~~~~ ByChan-Ddos Kuruldu ~~~~~~~~~~~~~~~$tp"
+                echo -e $red "~~~~~~~~~~~~~~~ Ddos Kuruldu ~~~~~~~~~~~~~~~$tp"
                 cd ..
                 pressanykey3
             fi
