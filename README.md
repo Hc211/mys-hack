@@ -6,4 +6,4 @@ Kali Linux İçin Otomatik Depo Günceller .
 Termux Kullanıyorsanız 1. Seçeneği Seçip Bekleyiniz.
 
 /Hc211/ 
-https://github.com/Hc211/
+https://github.com/XxH4C1xX/
